@@ -1,0 +1,39 @@
+
+-Diziyi Bölme
+
+Baþlangýç dizisi:
+[16, 21, 11, 8, 12, 22]
+
+Bölme 1:
+[16, 21, 11] ve [8, 12, 22]
+Bölme 2:
+[16, 21] ve [11], [8, 12] ve [22]
+Bölme 3:
+[16], [21], [11], [8], [12], [22]
+
+Birleþtirme Adýmlarý:
+
+Birleþtirme 1:
+[16] ve [21] birleþir: [16, 21]
+[8] ve [12] birleþir: [8, 12]
+
+[16, 21] ve [11] birleþir.
+[16, 21, 11] 
+[8, 12] ve [22] birleþir.
+[8, 12, 22]
+
+Dizi þu hale gelir:
+[11, 16, 21] ve [8, 12, 22]
+
+Son birleþtirme:
+[11, 16, 21] ve [8, 12, 22] birleþir: [8, 11, 12, 16, 21, 22]
+
+Sonuç:
+Sýralý dizi:
+[8, 11, 12, 16, 21, 22]
+
+
+
+-- Merge Sort Time Complexity:
+Big-O notation'ý O(nlogn) olur. Çünkü her adýmda diziyi ikiye bölündüðünden  derinlik 
+2^x=n iþleminden 2 tabanýnda logn olur. Dizinin tüm elemanlarý birleþtirildiðinde bu da O(n) zaman alýr. Yani en son durum O(nlogn) olarak hesaplanýr.
